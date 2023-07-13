@@ -1,12 +1,74 @@
+.traffic-light{
+    background: black;
+    width: 200px;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 40px;
+}
+.traffic-light div{
+    margin: 15px auto;
+    padding: 15px;
+    height: 100px;
+}
+.red {
+    background: red;
+    width: 100px;
+    border-radius: 90px;
+    color: transparent;
+}
+.yellow {
+    background: yellow;
+    width: 100px;
+    border-radius: 90px;
+    color: transparent;
+}
+.green {
+    background: green;
+    width: 100px;
+    border-radius: 90px;
+    color: transparent;
+}
+.red2 {
+    background: red;
+    width: 100px;
+    border-radius: 90px;
+    box-shadow: 0px 0px 15px 8px lightcoral;
+    animation: glow 0.8s linear infinite alternate;
+    color: transparent;
+}
+.yellow2 {
+    background: yellow;
+    width: 100px;
+    border-radius: 90px;
+    box-shadow: 0px 0px 15px 8px lightyellow;
+    animation: glow 0.8s linear infinite alternate;
+    color: transparent;
+}
+.green2 {
+    background: green;
+    width: 100px;
+    border-radius: 90px;
+    box-shadow: 0px 0px 15px 8px lightgreen;
+    animation: glow 0.8s linear infinite alternate;
+    color: transparent;
+}
 
-/* 
+button {
+    margin: 50px 10px 0px 10px;
+    padding: 10px;
+    color: white;
+    font-family: 'VT323';
+    font-size: x-large;
+    border-radius: 40px;
+    border-color: transparent;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.automate {
+    background-color: darkslategray;
+}
 
-*/
+.reset-button {
+    background-color: darkred;
+}
